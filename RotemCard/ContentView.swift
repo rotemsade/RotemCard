@@ -10,8 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        ZStack {
+            Color(red:0.09, green:0.63, blue:0.52)
+                .edgesIgnoringSafeArea(.all)
+            Text("Rotem Sade")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .foregroundColor(Color.white)
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
