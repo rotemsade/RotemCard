@@ -30,6 +30,7 @@ struct ContentView: View {
                 Divider()
                     .frame(width: 370, height: 10)
                 InfoView(text: "+972 54 2490803", imageName: "phone.fill")
+                InfoView(text: "rotemsade71@gmail.com", imageName: "envelope.fill")
                 
                 
                 
